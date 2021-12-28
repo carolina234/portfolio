@@ -1,0 +1,667 @@
+*{
+margin-top: 0px;
+}
+html{
+    background-color:#22212C;
+    
+}
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+#home {
+    position: absolute;
+    width: 348px;
+    height: 292px;
+    left: 20px;
+    top: 40px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+ 
+.image {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 92px;
+    top: 47px;
+    border-radius: 70%;
+    background: url(image.png);
+    border: 2px solid #00FF00;
+    box-sizing: border-box;
+}
+
+.ana {
+    position: absolute;
+
+height: 26px;
+left: 51px;
+top: 203px;
+
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+line-height: 29px;
+
+color: #837E9F;
+}
+ 
+.aprendiz {
+    position: absolute;
+width: 235px;
+height: 17px;
+left: 70px;
+top: 244px;
+
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+
+
+
+color: #837E9F;
+}
+
+#link {
+    position: absolute;
+    width: 308px;
+    height: 348px;
+    left: 20px;
+    top: 362px;
+    padding: 20px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+
+.todos {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -42px;
+    top: -4px;
+}
+.brasil {
+    position: absolute;
+width: 35px;
+height: 16px;
+left: 75px;
+top: 50px;
+text-decoration: none;
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+
+color: #837E9F;
+
+}
+
+.trabalho {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -39px;
+    top: -6px;
+
+}
+.riachuelo {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 71px;
+    top: 94px;
+text-decoration: none;
+color: #837E9F;
+}
+
+.gato {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -41px;
+
+}
+.gatinhoicon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 71px;
+    top: 138px;
+    color: #837E9F;
+    text-decoration: none;
+}
+
+.linkedin {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -48px;
+  
+}
+.linkedinicon {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    left: 78px;
+    top: 184px;
+    color: #837E9F;
+text-decoration: none;
+}
+.twitter {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -49px;
+ 
+}
+.twittericon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 79px;
+    top: 237px;
+    text-decoration: none;
+    color: #837E9F;
+}
+
+.globo {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -44px;
+    top: 0px;
+}
+.globoicon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 76px;
+    top: 287px;
+   text-decoration: none;
+   color: #837E9F;
+
+}
+.email {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -41px;
+
+}
+
+.emailicon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 72px;
+    top: 334px;
+    text-decoration: none;
+    color: #837E9F;
+}
+
+.info {
+position: absolute;
+width: 348px;
+height: 208px;
+left: 20px;
+top: 768px;
+
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+.tec {
+    position: absolute;
+    color: #837E9F;
+    top: 17px;
+    left: 24px;
+    font-family: Merriweather Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+
+}
+strong {
+position: absolute;
+background: #CB92B1;
+border-radius: 30px;
+width: 86px;
+height: 24px;
+
+}
+.a {
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 13px;
+    padding-top: 6px;
+}
+.java{
+    top: 62px;
+    left: 22px;
+    text-align: center;
+}
+.react {
+    top: 62px;
+    left: 126px;
+    text-align: center;
+}
+
+.node {
+top: 62px;
+left: 230px;
+text-align: center;
+}
+.git {
+top: 107px;
+left: 21px;
+text-align: center;
+}
+.hub {
+    top: 107px;
+    left: 128px;
+    text-align: center;
+}
+.html {
+top: 107px;
+left: 230px;
+text-align: center;
+}
+.css {
+    top: 145px;
+    left: 24px;
+    text-align: center;
+}
+
+.eli {
+    top: 147px;
+    left: 127px;
+    text-align: center;
+}
+.native {
+top: 147px;
+left: 225px;
+text-align: center;
+}
+
+#retangulo {
+position: absolute;
+width: 348px;
+height: 349px;
+left: 20px;
+top: 994px;
+
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+.expe {
+    position: absolute;
+top: 10px;
+ left: 30px; 
+color: #837E9F;
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+}
+li {
+  margin-top: 38px;
+    margin-left: 40px;
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+    color: #837E9F;
+}
+
+#quadrado {
+position: absolute;
+width: 348px;
+height: 352px;
+left: 20px;
+top: 1357px;
+
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+
+.educaçao {
+    position: absolute;
+    top: 10px;
+    left: 34px;
+    color: #837E9F;
+}
+
+#my {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 390px;
+    top: 40px;
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    
+}
+.projects {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #837E9F;
+
+}
+.veja {
+position: absolute;
+color: #837E9F;
+top: 30px;
+left: 837px;
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+}
+
+#onix {
+    position: absolute;
+width: 461px;
+height: 186px;
+left: 388px;
+top: 145px;
+
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+.pasta {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 30px;
+    
+}
+.oni {
+position: absolute;
+color: #837E9F;
+top: 30px;
+left: 70px;
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+}
+.cansei {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    right: 10px;
+    font-family: Merriweather Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #837E9F;
+}
+.star {
+    position: absolute;
+    top: 136px;
+    left: 30px;
+}
+.coisa {
+    position: absolute;
+    top: 136px;
+    left: 102px;
+}
+.number {
+    position: absolute;
+    top: 139px;
+    left: 66px;
+    color: #837E9F;
+}
+.numero {
+    position: absolute;
+    top: 139px;
+    left: 131px;
+    color: #837E9F;
+}
+
+#dois {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 880px;
+    top: 147px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.recent {
+    position: absolute;
+width: 952px;
+height: 86px;
+left: 393px;
+top: 363px;
+
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+.posts {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: Merriweather Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+    color: #837E9F;
+}
+.ultimo {
+    position: absolute;
+width: 952px;
+height: 201px;
+left: 391px;
+top: 489px;
+
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px
+}
+
+.foto {
+    position: absolute;
+    top: 31px;
+    left: 30px;
+width: 128px;
+height: 128px;
+border-radius: 70%;
+background: url(image.png);
+border: none ;
+box-sizing: border-box;
+}
+.title {
+    position: absolute;
+width: 612px;
+height: 31px;
+left: 178px;
+top: 30px;
+
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+
+color: #837E9F;
+
+}
+.anos {
+    position: absolute;
+width: 83px;
+height: 18px;
+left: 178px;
+top: 61px;
+color: #837E9F;
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+}
+.titulo {
+    position: absolute;
+width: 501px;
+height: 20px;
+left: 178px;
+top: 107px;
+
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #837E9F;
+}
+.one {
+    position: absolute;
+width: 110px;
+height: 21px;
+left: 178px;
+top: 138px;
+
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #837E9F
+}
+.two {
+    position: absolute;
+width: 102px;
+height: 21px;
+left: 298px;
+top: 138px;
+
+font-family: Merriweather Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #837E9F;
+
+}
+ 
+.tree {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 410px;
+    top: 138px;
+    
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #837E9F;
+}
+
+.four {
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 522px;
+    top: 138px;
+    
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #837E9F;
+}
+
+.ja {
+    position: absolute;
+    top: 139px;
+    left: 361px;
+    color: #837E9F;
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.va {
+    position: absolute;
+    top: 139px;
+    left: 361px;
+    color: #837E9F;
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+.bola {
+    
+    position:absolute;
+    width: 15px;
+    height: 15px;
+    left: 1278px;
+    top: 295px;
+    background: #E7DE79;
+    border: 2px solid #837E9F;
+    box-sizing: border-box;
+    
+    
+}
+.circle { 
+     position: absolute;
+
+    width: 30px;
+  
+    height: 30px;
+  
+    left: 339px;
+    
+    top: 138px;
+
+}
+
+
+footer {
+    position: absolute;
+    color: #837E9F;
+    top: 1700px;
+    left: 617px;
+}
